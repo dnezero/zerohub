@@ -2,9 +2,5 @@
 
 [!]: We will host a new giveaway of 200 robux at 200 members in our Discord server! Join the Discord for a chance to win once we start the giveaway.
 
-[+]: 3 scripts have been added!
-     [+]: Ro-hub/Rohub
-     [+]: Fly Gui v3
-     [+]: Aussie Wire
-
-[!]: zerohub have been unverified on ScriptBlox! :(
+[+] Fixed overlay on other GUIs:
+    [+]: Instead of putting it in the player Gui we putted it in the CoreGui.
