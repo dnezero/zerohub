@@ -2,4 +2,8 @@
 
 [!]: We will host a new giveaway of 200 robux at 200 members in our Discord server! Join the Discord for a chance to win once we start the giveaway.
 
-[+] Fixed overlay on other GUIs: Instead of putting it in the player Gui we putted it in the CoreGui.
+[+]: Improved loader by a bit
+[+]: Improved news by a bit
+[+]: Added copy to news
+[+]: Added script "v3rx's c00lgui"
+[+]: Added script "Systembroken"
