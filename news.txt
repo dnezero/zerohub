@@ -1,4 +1,4 @@
-27/05/2025
+27 May 2025
 
 [!]: We will host a new giveaway of 200 robux at 200 members in our Discord server! Join the Discord for a chance to win once we start the giveaway.
 
@@ -7,3 +7,5 @@
 [+]: Added copy to news
 [+]: Added script "v3rx's c00lgui"
 [+]: Added script "Systembroken"
+
+Total scripts: 51
