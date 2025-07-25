@@ -12,3 +12,4 @@
 {+}: Made R6 faster
 {i}: AI coming soon... (premium only)
 {!}: zerohub is a little bit slower to load
+{!}: Removed close and minimize
