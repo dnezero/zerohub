@@ -1,9 +1,14 @@
-2 June 2025
+25 July 2025
 
-[!]: We will host a new giveaway of 200 robux at 200 members in our Discord server! Join the Discord for a chance to win once we start the giveaway.
+[ THANKS FOR 400+ MEMBERS ON DISCORD! ]
+[      WELCOME TO ZEROHUB GLASS       ]
 
-[+]: Added startup sound
-[+]: Improvements to UI (background animations etc.)
-[+]: New welcome message
-
-Total scripts: 51
+{+}: Added report bugs/issues section
+{+}: Added 2 new scripts
+{+}: Made premium whitelist faster
+{+}: Added execution blacklist
+{+}: New splendid UI
+{+}: New trending widget on home page
+{+}: Made R6 faster
+{i}: AI coming soon... (premium only)
+{!}: zerohub is a little bit slower to load
