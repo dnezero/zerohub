@@ -1,15 +1,8 @@
-25 July 2025
+27 July 2025
 
 [ THANKS FOR 400+ MEMBERS ON DISCORD! ]
-[ WELCOME TO ZEROHUB GLASS ]
 
-{+}: Added report bugs/issues section
-{+}: Added 2 new scripts
-{+}: Made premium whitelist faster
-{+}: Added execution blacklist
-{+}: New splendid UI
-{+}: New trending widget on home page
-{+}: Made R6 faster
-{i}: AI coming soon... (premium only)
-{!}: zerohub is a little bit slower to load
-{!}: Removed close and minimize
+{+}: Added settings
+{+}: Added AI (premium only)
+{+}: Fixed key system
+{+}: Added back close and minimize
