@@ -1,8 +1,0 @@
-27 July 2025
-
-[ THANKS FOR 400+ MEMBERS ON DISCORD! ]
-
-{+}: Added settings
-{+}: Added AI (premium only)
-{+}: Fixed key system
-{+}: Added back close and minimize
