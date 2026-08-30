@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>zerohub — minimal roblox script hub</title>
+    <meta
+      name="description"
+      content="zerohub is a minimal roblox script hub with script search, a built-in ai assistant and a live console. one line to load."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="zerohub — minimal roblox script hub" />
+    <meta
+      property="og:description"
+      content="script search, ai assistant, live console. one line to load. keyless and minimal."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.nerdfonts.com/assets/css/webfont.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- liquid background -->
+    <div class="liquid" aria-hidden="true">
+      <div class="liquid-blob liquid-blob--1"></div>
+      <div class="liquid-blob liquid-blob--slow liquid-blob--2"></div>
+      <div class="liquid-blob liquid-blob--rev liquid-blob--3"></div>
+    </div>
+
+    <!-- header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand">
+          <span class="nf nf-md-console" aria-hidden="true"></span>
+          zerohub
+        </a>
+        <nav class="nav">
+          <a href="#script">script</a>
+          <a href="#discord">discord</a>
+          <span class="status">
+            <span class="status-dot"></span>
+            online
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- hero -->
+      <section class="hero">
+        <p class="hero-kicker rise">
+          <span class="nf nf-oct-terminal" aria-hidden="true"></span>
+          ~/zerohub — roblox script hub
+        </p>
+        <h1 class="hero-title rise-1">zerohub<span class="caret">_</span></h1>
+        <p class="hero-sub rise-2">
+          a minimal script hub. script search, an ai assistant and a live
+          console — one line and you're in.
+        </p>
+        <div class="hero-actions rise-3">
+          <a href="#script" class="btn btn-primary">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="4 17 10 11 4 5" />
+              <line x1="12" y1="19" x2="20" y2="19" />
+            </svg>
+            get the script
+          </a>
+          <a href="#discord" class="link">
+            <span class="nf nf-md-discord" aria-hidden="true"></span>
+            discord
+          </a>
+        </div>
+        <div class="hero-arrow">
+          <svg
+            class="icon bounce"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <polyline points="19 12 12 19 5 12" />
+          </svg>
+        </div>
+      </section>
+
+      <!-- script -->
+      <section id="script" class="section reveal">
+        <h2 class="section-title">
+          <span class="nf nf-cod-file_code" aria-hidden="true"></span>
+          the script
+        </h2>
+        <p class="section-sub">paste this into your executor and run it.</p>
+
+        <div class="code-card">
+          <div class="code-bar">
+            <div class="code-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="code-label">main.lua</span>
+            <button class="copy-btn" data-copy='loadstring(game:HttpGet("https://zhub.pages.dev/main.lua"))()'>
+              <svg
+                class="icon icon-sm icon-copy"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" />
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+              </svg>
+              <svg
+                class="icon icon-sm icon-check"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span class="copy-label">copy</span>
+            </button>
+          </div>
+          <pre><code><span class="comment">-- zerohub loader</span>
+loadstring(game:HttpGet("https://zhub.pages.dev/main.lua"))()</code></pre>
+        </div>
+      </section>
+
+      <!-- features -->
+      <section id="features" class="section reveal">
+        <h2 class="section-title">
+          <span class="nf nf-md-star_four_points" aria-hidden="true"></span>
+          what's inside
+        </h2>
+        <p class="section-sub">everything zerohub ships with, out of the box.</p>
+
+        <div class="features-grid">
+          <div class="feature">
+            <span class="nf nf-md-magnify feature-icon" aria-hidden="true"></span>
+            <p class="feature-title">script search</p>
+            <p class="feature-desc">
+              search thousands of scripts, powered by scriptbox + rscripts.
+              execute or copy straight from the results.
+            </p>
+          </div>
+          <div class="feature">
+            <span class="nf nf-md-robot_outline feature-icon" aria-hidden="true"></span>
+            <p class="feature-title">ai assistant</p>
+            <p class="feature-desc">
+              built-in gemini chat right inside the hub. bring your own api key
+              — it's autosaved.
+            </p>
+          </div>
+          <div class="feature">
+            <span class="nf nf-md-console_line feature-icon" aria-hidden="true"></span>
+            <p class="feature-title">live console</p>
+            <p class="feature-desc">
+              watch logs in real time, clear or copy them, and save full
+              sessions to file.
+            </p>
+          </div>
+          <div class="feature">
+            <span class="nf nf-md-drag_variant feature-icon" aria-hidden="true"></span>
+            <p class="feature-title">clean draggable ui</p>
+            <p class="feature-desc">
+              a minimal window that moves with you. tweak it in settings or kill
+              it instantly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- discord -->
+      <section id="discord" class="section reveal">
+        <h2 class="section-title">
+          <span class="nf nf-md-discord" aria-hidden="true"></span>
+          the discord
+        </h2>
+        <p class="section-sub">
+          updates, support and scripts chat — all in one place.
+        </p>
+
+        <div class="discord-card">
+          <div class="discord-info">
+            <span class="nf nf-md-discord discord-icon" aria-hidden="true"></span>
+            <div>
+              <p class="discord-name">discord.gg/HqXGv5K3sY</p>
+              <p class="discord-label">official server</p>
+            </div>
+          </div>
+          <div class="discord-actions">
+            <button class="copy-btn" data-copy="https://discord.gg/HqXGv5K3sY">
+              <svg
+                class="icon icon-sm icon-copy"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" />
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+              </svg>
+              <svg
+                class="icon icon-sm icon-check"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span class="copy-label">copy invite</span>
+            </button>
+            <a
+              class="link"
+              href="https://discord.gg/HqXGv5K3sY"
+              target="_blank"
+              rel="noreferrer"
+              >open →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 zerohub — not affiliated with roblox corporation.</p>
+        <p class="footer-dim">one line. that's it.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
