@@ -1,10 +1,5 @@
---[[
-made by dnezero pls no skid
-well i skidded and vibecoded this myself
-but pls give credits lol
-https://zhub.pages.dev/
-bye bye have fun skidding i lvoe you
-]]
+-- dnezero was here
+-- enjoy skidding
 
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
@@ -369,11 +364,8 @@ G2L["24"]["TextColor3"] = Color3.fromRGB(151, 151, 151);
 G2L["24"]["BackgroundTransparency"] = 1;
 G2L["24"]["Size"] = UDim2.new(0, 290, 0, 120);
 G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["24"]["Text"] = [[* Added Music player
-* Added Saved scripts
-* Whole new UI
-* Added Website and Scriptblox copy links
-* Added "What's new" in home]];
+G2L["24"]["Text"] = [[* Fixed AI
+* Slight adjustments to the AI UI]];
 G2L["24"]["Name"] = [[stuff]];
 G2L["24"]["Position"] = UDim2.new(0.02932, 0, 0.19375, 0);
 
