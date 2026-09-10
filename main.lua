@@ -449,7 +449,7 @@ G2L["2c"]["BackgroundTransparency"] = 1;
 G2L["2c"]["Position"] = UDim2.new(0, 0, 0.55, 0);
 
 
--- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.respawn
+-- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.infyield
 G2L["2d"] = Instance.new("TextButton", G2L["28"]);
 G2L["2d"]["BorderSizePixel"] = 0;
 G2L["2d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
@@ -461,15 +461,15 @@ G2L["2d"]["BackgroundTransparency"] = 1;
 G2L["2d"]["Size"] = UDim2.new(0, 200, 0, 50);
 G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2d"]["Text"] = [[       Infinite Yield]];
-G2L["2d"]["Name"] = [[respawn]];
+G2L["2d"]["Name"] = [[infyield]];
 
 
--- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.respawn.LocalScript
+-- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.infyield.LocalScript
 G2L["2e"] = Instance.new("LocalScript", G2L["2d"]);
 
 
 
--- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.respawn.ImageLabel
+-- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.infyield.ImageLabel
 G2L["2f"] = Instance.new("ImageLabel", G2L["2d"]);
 G2L["2f"]["BorderSizePixel"] = 0;
 G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2600,11 +2600,11 @@ local script = G2L["2b"];
 	end)
 end;
 task.spawn(C_2b);
--- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.respawn.LocalScript
+-- StarterGui.zerohubnew.main.stuffhere.cp.home.quickactions.infyield.LocalScript
 local function C_2e()
 local script = G2L["2e"];
 	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Health = 0
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end;
 task.spawn(C_2e);
