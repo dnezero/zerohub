@@ -1,6 +1,15 @@
 -- made by dnezero and gemini ai btw
 -- feel free to skid it but please give credits
 
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
 -- Instances: 188 | Scripts: 30 | Modules: 0 | Tags: 0
 local G2L = {};
 
@@ -2544,9 +2553,9 @@ local script = G2L["12"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://zhub.pages.dev/")
 		task.wait()
-		script.Parent.Text = "   Copied!"
+		script.Parent.Text = "       Copied!"
 		wait(1)
-		script.Parent.Text = "   Website"
+		script.Parent.Text = "       Website"
 	end)
 end;
 task.spawn(C_12);
@@ -2556,9 +2565,9 @@ local script = G2L["15"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://revolut.me/vgj")
 		task.wait()
-		script.Parent.Text = "   Copied!"
+		script.Parent.Text = "       Copied!"
 		wait(1)
-		script.Parent.Text = "   Donate"
+		script.Parent.Text = "       Donate"
 	end)
 end;
 task.spawn(C_15);
@@ -2568,9 +2577,9 @@ local script = G2L["18"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/HqXGv5K3sY/")
 		task.wait()
-		script.Parent.Text = "   Copied!"
+		script.Parent.Text = "       Copied!"
 		wait(1)
-		script.Parent.Text = "   Discord"
+		script.Parent.Text = "       Discord"
 	end)
 end;
 task.spawn(C_18);
@@ -2580,9 +2589,9 @@ local script = G2L["1b"];
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://scriptblox.com/u/dnezero")
 		task.wait()
-		script.Parent.Text = "   Copied!"
+		script.Parent.Text = "       Copied!"
 		wait(1)
-		script.Parent.Text = "   Scriptblox"
+		script.Parent.Text = "       Scriptblox"
 	end)
 end;
 task.spawn(C_1b);
