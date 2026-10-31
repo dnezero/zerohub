@@ -254,8 +254,6 @@ local ALL_GAME_TOOLS = {
     "Wheelchair", "Whip", "Winchester", "WineGlass", "Wrench", "YummyBread"
 }
 
-pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_fd59e5ccd219", "1.0.0", false) end)
-
 -- [ Window Setup ]
 local Window = WindUI:CreateWindow({
     Title = "zerohub.cc",
@@ -1847,5 +1845,6 @@ Tabs.Settings:Button({
     end
 })
 
+pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_879959c742fe", "1.0.0", false) end)
 selectDashboard()
 notify("zerohub.cc", "Loaded successfully", 3)
